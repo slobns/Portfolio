@@ -100,9 +100,9 @@ hr {
 .scrollPast {
   width: 30%;
   height:700px;
-  background: black;
+  background:#000d1a;
   position: relative;
-    
+  opacity: 0.7;  
   
 }
 h2 {
