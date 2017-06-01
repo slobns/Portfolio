@@ -3,26 +3,19 @@ body, html {
     height: 100%;
     width: 100%;
     font-family: "Lato";
-    
-    
 }
 .navbar-default {
     background: rgba(45, 47, 52, .98);
     
     transition: all 0.2s ease-out 0s;
     border-color:transparent;
-    
 }
-
 .navbar-brand {
     float: left;
     height: 50px;
     padding: 15px 15px;
     font-family: "Lato";
     color: snow;
-}
-   
-   
 }
 .navbar-default .navbar-brand {
      color: #fff; 
@@ -49,7 +42,6 @@ h1 {
     font-weight: 700;
     font-size: 5em;
     color:snow;
-    
 }
 
 h3 {
@@ -66,8 +58,6 @@ hr {
     padding-top: 10%;
 }
  #section1 {
-     
-    
      height:700px;
      color:snow; 
      background-image:url("https://imagizer.imageshack.us/v2/1280x853q90/922/DVSRf9.jpg");
@@ -76,10 +66,6 @@ hr {
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-    
-  
-   
-
 }
 .thumbnail {
     display: block;
@@ -94,9 +80,6 @@ hr {
     transition: border .2s ease-in-out;
 }
    
-
-
-
 .scrollPast {
   width: 30%;
   height:700px;
@@ -109,7 +92,7 @@ h2 {
   display: none;
   position: absolute;
   bottom: 10%;
-  
+  padding-left: 2%;
 }
 #cont, p {
     margin-bottom: 100px;
@@ -124,8 +107,6 @@ h2 {
     font-family: "Lato";
     
 }
-
-
 .bgimg-1 {
     background-image:
       url("https://3.bp.blogspot.com/-fGbv7Gai_PM/WKw941RrH4I/AAAAAAACJeY/f_rCm-XgsBMueGhkNdap9lNA1_bno20_ACPcB/s0/Macbook_Apple_Computer_wallpaper.jpg");
@@ -134,14 +115,12 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 #button {
     text-align: center;
-  
-padding-top:15px;
-padding-bottom:10px;
+    padding-top:15px;
+    padding-bottom:10px;
 }
 .thumbnail>img {
     height: 200px;
@@ -206,9 +185,7 @@ section#contact :-webkit-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: grey;
-    
 }
-
 section#contact ::-moz-placeholder {
     /* Firefox 18- */
     font-family: "Lato";
