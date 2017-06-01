@@ -1,0 +1,237 @@
+body, html {
+    
+    height: 100%;
+    width: 100%;
+    font-family: "Lato";
+    
+    
+}
+.navbar-default {
+    background: rgba(45, 47, 52, .98);
+    
+    transition: all 0.2s ease-out 0s;
+    border-color:transparent;
+    
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-family: "Lato";
+    color: snow;
+}
+   
+   
+}
+.navbar-default .navbar-brand {
+     color: #fff; 
+}
+.nav navbar-nav navbar-right {
+     color:snow;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff; 
+}
+.container {
+    color: #1C2331;
+}
+#content {
+    text-align:center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px, 8px, 13px rgba(0,0,0,0.1),
+                 0px, 18px, 23px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+    color:snow;
+    
+}
+
+h3 {
+    color:snow;
+}
+
+hr {
+    width: 500px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+                
+}
+.row1 {
+    padding-top: 10%;
+}
+ #section1 {
+     
+    
+     height:700px;
+     color:snow; 
+     background-image:url("https://imagizer.imageshack.us/v2/1280x853q90/922/DVSRf9.jpg");
+    
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+  
+   
+
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+   
+
+
+
+.scrollPast {
+  width: 30%;
+  height:700px;
+  background: black;
+  position: relative;
+    
+  
+}
+h2 {
+  display: none;
+  position: absolute;
+  bottom: 10%;
+  
+}
+#cont, p {
+    margin-bottom: 100px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 32px;
+}
+.row {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lato";
+    
+}
+
+
+.bgimg-1 {
+    background-image:
+      url("https://3.bp.blogspot.com/-fGbv7Gai_PM/WKw941RrH4I/AAAAAAACJeY/f_rCm-XgsBMueGhkNdap9lNA1_bno20_ACPcB/s0/Macbook_Apple_Computer_wallpaper.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#button {
+    text-align: center;
+  
+padding-top:15px;
+padding-bottom:10px;
+}
+.thumbnail>img {
+    height: 200px;
+  
+}
+.container-fluid{
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+section {
+    padding: 50px 0;
+    display: block;
+}
+.service-box h3 {
+    color:black;
+}
+
+section#contact {
+    height:50%;
+    background-image: url("http://digi-mag.fr/wp-content/uploads/2016/06/Bamboo-Spark-Une.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    padding: 30px 0PX;
+}
+section#contact .section-heading {
+    color: white;
+}
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+section#contact .form-group input.form-control {
+    height: auto;
+}
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+   color: grey;
+}
+section#contact :-webkit-input-placeholder {
+    font-family:"Lato";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: grey;
+    
+}
+
+section#contact ::-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+
+
+
+@grid-columns:              12;
+@grid-gutter-width:         30px;
+@grid-float-breakpoint:     768px;
